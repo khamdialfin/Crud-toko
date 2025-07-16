@@ -17,6 +17,5 @@
             <li><a href="list-data"></a>Daftar Data Barang</li>
         </ul>
     </nav>
-    
 </body>
 </html>
