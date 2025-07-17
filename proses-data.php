@@ -1,6 +1,6 @@
 <?php
     include("config.php");
-    if(isset($_POST)['daftar']){
+    if(isset($_POST['daftar'])){
         $kode=mysqli_real_escape_string($db, $_POST['kd_brg']);
         $nama=mysqli_real_escape_string($db, $_POST['nama']);
         $harga=mysqli_real_escape_string($db, $_POST['harga']);
