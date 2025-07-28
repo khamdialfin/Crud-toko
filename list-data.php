@@ -39,7 +39,7 @@
             <td><?= $data['merk'] ?></td>
             <td><?= $data['jumlah'] ?></td>
             <td>
-                <a href="form-edit.php?kd_brg=<?= $data['kd_brg'] ?>">Edit</a> |
+                <a href="form-edit.php?kd_brg=<?= $data['kd_brg'] ?>">Edit |</a> 
                 <a href="hapus.php?kd_brg=<?= $data['kd_brg'] ?>" onclick="return confirm('Yakin hapus?')">Hapus</a>
             </td>
         </tr>

@@ -8,9 +8,9 @@ if (isset($_GET['kd_brg'])) {
     $query = mysqli_query($db, $sql);
 
     if ($query) {
-        header('Location: index.php?status=hapus_sukses');
+        header('location: index.php?status=sukses');
     } else {
-        header('Location: index.php?status=hapus_gagal');
+        header('location: index.php?status=gagal');
     }
 } else {
     die("Akses dilarang...");

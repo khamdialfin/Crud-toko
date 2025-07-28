@@ -7,12 +7,12 @@
        $jumlah=$_POST['jumlah']; 
         
        $sql="update data_barang set nama='$nama', harga='$harga', merk='$merk', jumlah='$jumlah' where kd_brg='$kode'";
-       $query= mysqli_query($db, $sql);
+       $query= mysqli_query($db,$sql);
 
        if ($query) {
-             header('Location: index.php?status=edit_sukses');
+             header('location: index.php?status=sukses');
         } else {
-             header('Location: index.php?status=edit_gagal');
+             header('location: index.php?status=gagal');
        }
     }else{
         die("akses dilarang...");

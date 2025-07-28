@@ -10,12 +10,12 @@ $kode = $_GET['kd_brg'];
 $sql = "SELECT * FROM data_barang WHERE kd_brg = '$kode'";
 $query = mysqli_query($db, $sql);
 
-// Jika data tidak ditemukan
+
 if (mysqli_num_rows($query) < 1) {
     die("Data tidak ditemukan...");
 }
 
-// Ambil data
+
 $data_barang = mysqli_fetch_assoc($query);
 ?>
 
@@ -31,7 +31,7 @@ $data_barang = mysqli_fetch_assoc($query);
         <fieldset>
             <p>
                 Kode Barang:
-                <input type="text" name="kd_brg" value="<?php echo $data_barang['kd_brg']; ?>" readonly>
+                <input type="text" name="kd_brg" value="<?php echo $data_barang['kd_brg']; ?>">
             </p>
             <p>
                 Nama:
