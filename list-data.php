@@ -6,6 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+        
+    </style>
+ 
 </head>
 <body>
     <header>
@@ -15,7 +20,7 @@
         <a href="form-data.php">[+] Tambah Baru</a>
     </nav>
     <br>
-    <table border="1">
+    <table class="table table-hover">
         <thead>
             <tr>
                 <th>Kode Barang</th>
